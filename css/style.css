@@ -1,5 +1,63 @@
 /* YeyeYeee código aquí */
 @media screen and (max-width: 479px) {
     /* start of phone styles */
-
+	body {
+		background-color:#3E3F41; 
+		font-family: 'Roboto', sans-serif;
+	}
+	.col-5{
+		margin-top: 20%;
+    margin-left: 27%;
+	}
+	#body_container{
+		margin-top: 20%;
+	}
+	#logo_img{
+		text-align: center; 
+	}
+	#mail_input{
+		width: 279px;
+		height: 54px;
+		color: rgb(0, 0, 0, 0.43); 
+		font-size: 12px;
+		text-align: center;
+	}
+	#password_input{
+		width: 279px;
+		height: 54px;
+		color: rgb(0, 0, 0, 0.43); 
+		font-size: 12px;
+		text-align: center;
+	}
+	#login_button{
+		width: 279px;
+		height: 54px;
+		background-color: #F6A800;
+		color: #3E3F41;
+		text-align: center;
+		font-size: 18px; 
+		border-width: 0;
+	}
+	#textlogin_container{
+		color: 	#FFFFFF; 
+		font-size: 13px; 
+	}
+	#bottom_text{
+		margin-left: 10%; 
+		margin-top: 18%;
+	}
+	#singUp{
+		color: #F6A800;
+		font-size: 16px; 
+		font-style: Bold, Regular; 
+	}
+	
+	#body_content{
+		background-color: #DDDEE0;
+		height: 548px;
+	}
+	.big_button{
+		background-color: #F6A800;
+		color: #DDDEE0;
+	}
 }
