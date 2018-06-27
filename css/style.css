@@ -52,12 +52,31 @@
 		font-style: Bold, Regular; 
 	}
 	
-	#body_content{
+	.body_content{
 		background-color: #DDDEE0;
 		height: 548px;
 	}
 	.big_button{
 		background-color: #F6A800;
 		color: #DDDEE0;
+		border-width: 0;
+		display: block;
+		width: 297px;
+		height: 42px;
+		position: absolute;
+		left: 13px;
+		
+	}
+	#showAcount_button{
+		top: 199px;
+	}
+	#calculate_button{
+		top: 254px;
+	}
+	#profile_button{
+		top: 306px;
+	}
+	#question_button{
+		top: 358px;
 	}
 }
