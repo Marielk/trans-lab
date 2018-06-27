@@ -1,5 +1,5 @@
 /* YeyeYeee código aquí */
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 552px) {
     /* start of phone styles */
 	body {
 		background-color:#3E3F41; 
@@ -51,7 +51,7 @@
 		font-size: 16px; 
 		font-style: Bold, Regular; 
 	}
-	
+	/*Inicio estilo home*/
 	.body_content{
 		background-color: #DDDEE0;
 		height: 548px;
@@ -78,5 +78,92 @@
 	}
 	#question_button{
 		top: 358px;
+	}
+
+
+/*Inicio estilo profile */	
+	#userPicture_container{
+		position: absolute;
+		left: 0px;
+		top:40px; 
+		height: 182px;
+		background-color: #F6A800;
+	}
+	#userImage{
+		border-radius: 50%;
+		margin-left: 70px;
+		margin-top: 15px;
+		width: 161px;
+		height: 153px;
+	}
+	#show_mail_container{
+		position: absolute;
+		width: 242px;
+		height: 33px;
+		left: 39px;
+		top: 264px;
+		text-align: center;
+		font-family: Roboto;
+		font-size: 14px;
+		letter-spacing: 0.04em;
+		color: rgba(0, 0, 0, 0.7);
+		opacity: 0.9;
+		background: #FFFFFF;
+	}
+	.cardNumber_input{
+		position: absolute;
+		top: 322px;
+		left: 40px;
+		width: 242px;
+		height: 20px;
+		border-bottom: rgba(0, 0, 0, 0.5);
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 12px;
+		letter-spacing: 0.04em;
+		color: rgba(0, 0, 0, 0.5);
+		border-bottom-width:  1px;
+    background-color: #DDDEE0;
+	}
+	#addCard_button{
+		display: block;
+		position: absolute;
+		width: 242px;
+		height: 36px;
+		left: 40px;
+		top: 356px;
+		background-color: #F6A800;
+		color: #FFFFFF;
+		font-size: 18px;
+		letter-spacing: 0.04em;
+		border: 0px;
+	}
+	#card_container{
+		position: absolute;
+		top: 405px;
+		display: block;
+
+	}
+	.cardNumber{
+		display: block;
+		position: absolute;
+		width: 245px;
+		height: 24px;
+		left: 37px;
+		letter-spacing: 0.04em;
+		font-size: 12px;
+		color: rgba(0, 0, 0, 0.6);
+		background-color: #FFFFFF;
+	}
+	#card2{
+		top: 30px;
+	}
+	#card3{
+		top: 60px;
+	}
+	#card4{
+		top: 90px;
 	}
 }
