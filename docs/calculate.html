@@ -11,7 +11,33 @@
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	
+	<header>
+		<p>Trans-Lab</p>
+	</header>
+	<section class="body_content" class="container-fluid">
+		<div class="card_number_container">
+			<input type="text" id="cardNumber_input_calculate" class="cardNumber_input" placeholder="numero de tarjeta">
+		</div>
+		<div class="container-fluid" class="row-1">
+		<div id="option1"></div>
+		<div id="option2"></div>
+		</div>	
+		<div class="container-fluid" class="row-1">
+			<button id="calculate_button">Calcular</button>
+		</div>
+		<section id="show_cost">
+		<div class="container-fluid" class="row-4">
+			<div class="top">Costo pasaje</div>
+			<div class="numbers" id="cost">$6000</div>
+		</div>
+		</section>
+		<section id="show_result">
+			<div class="container-fluid" class="row-4">
+				<div class="top">Saldo Final</div>
+				<div class="numbers" id="result">$800</div>
+			</div>
+		</section>
+	</section>
     <script src="js/main.js"></script>
 </body>
 </html>
