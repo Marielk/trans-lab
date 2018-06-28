@@ -250,6 +250,8 @@
 		top: 411px;
 		
 	}
+
+	/* Inicio de estilo hoja show_acount */
 	#cardNumber_input_showAcount {
 		position: absolute;
 		left: 16px;
@@ -289,4 +291,36 @@
 		
 	}
 	
+	/* Inicio de estilo questions */ 
+	.title_container{
+		position: absolute;
+		width: 322px;
+		height: 183px;
+		left: 0px;
+		top: 40px;		
+		background-color: #F6A800;
+		text-align: center;	
+		display: table-cell;
+		vertical-align: middle;	
+		font-size: 22px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		line-height: normal;
+		letter-spacing: 0.04em;		
+		color: #FCFCFC;		
+	}
+
+	#question_container{
+		position: absolute;
+		width: 290px;
+		height: 152px;
+		left: 15px;
+		top: 261px;
+	}
+	.questions{
+		background: #FFFFFF;
+		border: 0.1px solid #000000;
+		box-sizing: border-box;
+	}
 }
