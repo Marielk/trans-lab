@@ -250,4 +250,43 @@
 		top: 411px;
 		
 	}
+	#cardNumber_input_showAcount {
+		position: absolute;
+		left: 16px;
+		top: 100px;
+		width: 281px;
+	}
+	#options{
+		position: absolute;
+		width: 285px;
+		height: 25px;
+		left: 14px;
+		top: 148px;				
+		background-color: #FFFFFF;
+	}
+	#showAcount_button {
+		position: absolute;
+		width: 134px;
+		height: 24px;
+		left: 95px;
+		top: 219px;
+		background-color: #F6A800;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		line-height: normal;
+		font-size: 18px;
+		letter-spacing: 0.04em;		
+		color: #FFFFFF;	
+		border: 0em;			
+	}
+	#show_container{
+		position: absolute;
+		width: 253px;
+		height: 104px;
+		left: 35px;
+		top: 323px;
+		
+	}
+	
 }
