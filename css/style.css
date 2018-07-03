@@ -149,7 +149,7 @@
 
 	}
 	.cardNumber{
-		display: block;
+		display: none;
 		position: absolute;
 		width: 245px;
 		height: 24px;
@@ -167,6 +167,18 @@
 	}
 	#card4{
 		top: 90px;
+	}
+	#rememberButton{
+		position: absolute;
+    top: 530px;
+    left: 130px;
+	}
+	#textCheck{
+		position: absolute;
+    top: 0px;
+    left: 30px;
+		font-size: small;
+		color: rgba(0, 0, 0, 0.6);
 	}
 
 	/* INICIO ESTILO HOJA Calculate*/
